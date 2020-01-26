@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="The Pit:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="67c9fbf3-1596-44d0-933f-be56b1643949" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1WEO5JBGgAhmncz7FZN9qmXMZTA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="ignore.virus.scanning.warn.message" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/me" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="67c9fbf3-1596-44d0-933f-be56b1643949" name="Default Changelist" comment="" />
+      <created>1578711102521</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578711102521</updated>
+      <workItem from="1578711103886" duration="384000" />
+      <workItem from="1578711507204" duration="3974000" />
+      <workItem from="1578719750512" duration="5000" />
+      <workItem from="1578722358737" duration="49000" />
+      <workItem from="1578722414595" duration="1186000" />
+      <workItem from="1579034174957" duration="2362000" />
+      <workItem from="1579203015256" duration="2698000" />
+      <workItem from="1579231494586" duration="793000" />
+      <workItem from="1579293405295" duration="4507000" />
+      <workItem from="1579456218855" duration="5783000" />
+      <workItem from="1579476528735" duration="1963000" />
+      <workItem from="1579500083078" duration="1320000" />
+      <workItem from="1579562345294" duration="4286000" />
+      <workItem from="1579586114584" duration="60000" />
+      <workItem from="1579586892248" duration="869000" />
+      <workItem from="1579615865316" duration="20000" />
+      <workItem from="1579638408185" duration="2845000" />
+      <workItem from="1579667073466" duration="74000" />
+      <workItem from="1579667206014" duration="705000" />
+      <workItem from="1579708678199" duration="2168000" />
+      <workItem from="1579724996029" duration="623000" />
+      <workItem from="1579755049617" duration="515000" />
+      <workItem from="1579791284422" duration="1696000" />
+      <workItem from="1579802610283" duration="8000" />
+      <workItem from="1579814572237" duration="231000" />
+      <workItem from="1579825884071" duration="1195000" />
+      <workItem from="1580012627345" duration="2330000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="446" y="58" key="#com.intellij.ide.util.MemberChooser" timestamp="1580013555016">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="446" y="58" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1580013555016" />
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1579460878483">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1579460878483" />
+    <state x="121" y="0" key="SettingsEditor" timestamp="1578714846558">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1578714846558" />
+    <state x="337" y="166" key="com.intellij.ide.util.TipDialog" timestamp="1580012647591">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="337" y="166" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1580012647591" />
+    <state x="371" y="108" key="extract.method.dialog" timestamp="1579710086443">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="108" key="extract.method.dialog/0.0.1280.680@0.0.1280.680" timestamp="1579710086443" />
+    <state x="297" y="151" key="run.anything.popup" timestamp="1579325078439">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1579325078439" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1579207393476">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1579207393476" />
+  </component>
+</project>

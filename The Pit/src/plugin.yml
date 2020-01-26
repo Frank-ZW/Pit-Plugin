@@ -1,0 +1,10 @@
+name: The_Pit
+version: 1.0.0
+main: me.colosseum.pit.Pit
+description: The pit gamemode
+commands:
+  pit:
+    description: Header for subcommands under the Pit plugin.
+    aliases:
+      - pitplugin
+      - p
