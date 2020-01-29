@@ -1,6 +1,6 @@
 name: The_Pit
 version: 1.0.0
-main: me.colosseum.pit.Pit
+main: net.colosseum.pit.Pit
 description: The pit gamemode
 commands:
   pit:

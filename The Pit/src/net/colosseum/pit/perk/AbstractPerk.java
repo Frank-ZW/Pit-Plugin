@@ -8,13 +8,11 @@ public abstract class AbstractPerk<T> implements IPerk<T> {
     protected final Pit p;
     protected final PlayerData playerData;
     private final Class<T> clazz;
-    private boolean enabled;
 
     public AbstractPerk(Pit p, PlayerData playerData, Class<T> clazz) {
         this.p = p;
         this.playerData = playerData;
         this.clazz = clazz;
-        this.enabled = false;
     }
 
     public PlayerData getPlayerData() {
@@ -24,15 +22,5 @@ public abstract class AbstractPerk<T> implements IPerk<T> {
     @Override
     public Class<T> getType() {
         return this.clazz;
-    }
-
-    @Override
-    public boolean isEnabled() {
-        return this.enabled;
-    }
-
-    @Override
-    public void setEnabled(boolean enabled) {
-        this.enabled = enabled;
     }
 }

@@ -91,6 +91,16 @@
       <workItem from="1579814572237" duration="231000" />
       <workItem from="1579825884071" duration="1195000" />
       <workItem from="1580012627345" duration="2330000" />
+      <workItem from="1580060679302" duration="14000" />
+      <workItem from="1580061444297" duration="22000" />
+      <workItem from="1580061730880" duration="91000" />
+      <workItem from="1580092928961" duration="21000" />
+      <workItem from="1580139497941" duration="631000" />
+      <workItem from="1580157042049" duration="2159000" />
+      <workItem from="1580183794450" duration="602000" />
+      <workItem from="1580189436465" duration="164000" />
+      <workItem from="1580223832732" duration="1833000" />
+      <workItem from="1580264679641" duration="4581000" />
     </task>
     <servers />
   </component>
@@ -98,10 +108,14 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="446" y="58" key="#com.intellij.ide.util.MemberChooser" timestamp="1580013555016">
+    <state x="446" y="58" key="#com.intellij.ide.util.MemberChooser" timestamp="1580269607649">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="446" y="58" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1580013555016" />
+    <state x="446" y="58" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1580269607649" />
+    <state x="438" y="227" width="404" height="236" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1580268789452">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="438" y="227" width="404" height="236" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1580268789452" />
     <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1579460878483">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -110,10 +124,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1578714846558" />
-    <state x="337" y="166" key="com.intellij.ide.util.TipDialog" timestamp="1580012647591">
+    <state x="337" y="166" key="com.intellij.ide.util.TipDialog" timestamp="1580264684522">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="337" y="166" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1580012647591" />
+    <state x="337" y="166" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1580264684522" />
     <state x="371" y="108" key="extract.method.dialog" timestamp="1579710086443">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

@@ -7,7 +7,9 @@ import net.colosseum.pit.perk.perks.*;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Map;
+import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 
 public class PlayerData {
@@ -17,10 +19,13 @@ public class PlayerData {
             SnowmanPerk.class,
             FishingRodPerk.class,
             KnightPerk.class,
-            ScavengerPerk.class
+            ScavengerPerk.class,
+            CursePerk.class,
+            CounterPerk.class
     };
     private static final Map<Class<? extends IPerk>, Constructor<? extends IPerk>> CONSTRUCTORS = new ConcurrentHashMap<>();
     private final Map<Class<? extends IPerk>, IPerk> perkMap = new HashMap<>();
+    private Set<IPerk> ACTIVEPERKS = new HashSet<IPerk>();
 
     private int balance;
     private int experience;
@@ -139,14 +144,26 @@ public class PlayerData {
      * the plugin into the server. The commands and methods are there just to verify that the plugin is working.
      */
     public <T> void enablePerk(Class<T> clazz) {
-        this.perkMap.get(clazz).setEnabled(true);
+        this.ACTIVEPERKS.add(this.perkMap.get(clazz));
+    }
+
+    public <T> void disablePerk(Class<T> clazz) {
+        this.ACTIVEPERKS.remove(this.perkMap.get(clazz));
+    }
+
+    public void disableAllPerks() {
+        this.ACTIVEPERKS.clear();
+    }
+
+    public <T> boolean hasEnabledPerk(Class<T> clazz) {
+        return this.ACTIVEPERKS.contains(this.perkMap.get(clazz));
     }
 
     public String printPerks() {
         StringBuilder result = new StringBuilder();
         for (Class<? extends IPerk> perkClass: PERKS) {
             IPerk perk = perkMap.get(perkClass);
-            result.append("\nType: ").append(perk.getType().toString()).append(", Enabled: ").append(perk.isEnabled()).append("\n");
+            result.append("\nType: ").append(perk.getType().toString()).append(", Enabled: ").append(this.ACTIVEPERKS.contains(perk)).append("\n");
         }
 
         return result.toString();

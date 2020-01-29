@@ -43,8 +43,8 @@ public class PlayerDeathListener implements Listener {
 
         killerData.incrementBalance(this.gold);
         killerData.incrementXP(this.experience);
-        killerData.incrementKillStreak(1);
 
+        killerData.incrementKillStreak(1);
         victimData.setKillStreak(0);
 
         e.getDrops().clear();
@@ -52,7 +52,7 @@ public class PlayerDeathListener implements Listener {
 
         for (Class<? extends IPerk> perkClass: PlayerData.PERKS) {
             IPerk perk = killerData.getPerk(perkClass);
-            if (perk.isEnabled() && perk.getType() == PlayerDeathEvent.class) {
+            if (killerData.hasEnabledPerk(perkClass) && perk.getType() == PlayerDeathEvent.class) {
                 perk.handlePerk(e);
             }
         }

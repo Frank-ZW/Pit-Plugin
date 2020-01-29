@@ -61,6 +61,11 @@ public class CommandHandler implements CommandExecutor {
                 getExecutor("get").onCommand(p, commandSender, command, strings);
                 return true;
             }
+
+            if (strings[0].equalsIgnoreCase("removeperk")) {
+                getExecutor("removeperk").onCommand(p, commandSender, command, strings);
+                return true;
+            }
         }
 
         return true;

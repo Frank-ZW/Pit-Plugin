@@ -23,6 +23,10 @@ public class EntityDamageEntityListener implements Listener {
             e.setCancelled(true);
         }
 
+        if (e.getDamager() instanceof Projectile) {
+            return;
+        }
+
         PlayerData playerData = p.getPlayerDataManager().getPlayerData((Player) e.getDamager());
         if (playerData == null) {
             return;
@@ -30,7 +34,7 @@ public class EntityDamageEntityListener implements Listener {
 
         for (Class<? extends IPerk> perkClass: PlayerData.PERKS) {
             IPerk perk = playerData.getPerk(perkClass);
-            if (perk.isEnabled() && perk.getType() == EntityDamageByEntityEvent.class) {
+            if (playerData.hasEnabledPerk(perkClass) && perk.getType() == EntityDamageByEntityEvent.class) {
                 perk.handlePerk(e);
             }
         }

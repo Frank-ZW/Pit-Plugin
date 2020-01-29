@@ -1,7 +1,8 @@
 package net.colosseum.pit;
 
 import net.colosseum.pit.command.CommandHandler;
-import net.colosseum.pit.command.commands.PerkCommand;
+import net.colosseum.pit.command.commands.DisablePerkCommand;
+import net.colosseum.pit.command.commands.EnablePerkCommand;
 import net.colosseum.pit.command.commands.PrintPerkCommand;
 import net.colosseum.pit.command.commands.StatCommand;
 import net.colosseum.pit.listener.*;
@@ -43,9 +44,10 @@ public final class Pit extends JavaPlugin {
 
     private void registerCommands() {
         CommandHandler handler = new CommandHandler(this);
-        handler.register("addperk", new PerkCommand());
+        handler.register("addperk", new EnablePerkCommand());
         handler.register("printperks", new PrintPerkCommand());
         handler.register("get", new StatCommand());
+        handler.register("removeperk", new DisablePerkCommand());
 
         getCommand("pit").setExecutor(handler);
     }

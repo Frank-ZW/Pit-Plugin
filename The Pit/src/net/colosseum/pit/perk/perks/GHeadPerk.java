@@ -20,6 +20,11 @@ public class GHeadPerk extends PlayerDeathPerk {
     @Override
     public void handlePerk(PlayerDeathEvent e) {
         Player player = e.getEntity().getKiller();
+        PlayerData playerData = p.getPlayerDataManager().getPlayerData(player);
+        if (playerData.hasEnabledPerk(CursePerk.class)) {
+            return;
+        }
+
         int index = InventoryUtil.getItemInventoryIndex(player, Material.SKULL_ITEM);
         if (index == -1) {
             ItemStack head = new ItemStack(Material.SKULL_ITEM, 1, (byte) 3);
