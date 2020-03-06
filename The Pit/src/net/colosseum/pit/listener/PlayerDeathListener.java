@@ -3,6 +3,7 @@ package net.colosseum.pit.listener;
 import net.colosseum.pit.Pit;
 import net.colosseum.pit.data.PlayerData;
 import net.colosseum.pit.perk.IPerk;
+import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -43,6 +44,13 @@ public class PlayerDeathListener implements Listener {
 
         killerData.incrementBalance(this.gold);
         killerData.incrementXP(this.experience);
+
+        killer.sendMessage(
+                ChatColor.GOLD + "+ " + this.gold + " gold" + "\n"
+                 + ChatColor.BLUE + "+ " + this.experience + " XP"
+        );
+
+        victim.sendMessage(ChatColor.RED.toString() + ChatColor.BOLD + "DEATH!");
 
         killerData.incrementKillStreak(1);
         victimData.setKillStreak(0);
